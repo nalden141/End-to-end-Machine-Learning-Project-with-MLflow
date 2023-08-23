@@ -1,8 +1,6 @@
 from src.mlProject import logger
 from src.mlProject.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 
-
-
 STAGE_NAME = "Data Ingestion stage"
 try:
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
